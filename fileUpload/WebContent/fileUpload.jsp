@@ -11,6 +11,7 @@
 	
 	username:<input type="text" name="username"><br>
 	file:<input type="file" name="file"><br>
+	file2:<input type="file" name="file2"><br>
 	<input type="submit" value="submit">
 	
 	</form>

@@ -10,7 +10,7 @@
 <body>
 
 <%
-
+ /*
  InputStream is = request.getInputStream();
  BufferedReader br = new BufferedReader(new InputStreamReader(is));
  
@@ -20,8 +20,11 @@
  }
  
  br.close();
-
+ */
  %>
+ username: ${requestScope.username }<br>
+ file1: ${requestScope.file }<br>
+ file2: ${requestScope.file2 }
 
 </body>
 </html>
